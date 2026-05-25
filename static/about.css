@@ -25,12 +25,3 @@ body {
     background-color: #007acc;
     color: #d4d4d4;
 }
-
-.container1, .container2 {
-    display: flex;
-    flex-direction: column;
-    background-color: #007acc50;
-    margin-top: 10px;
-    padding-left: 18px;
-    height: 600px;
-}
