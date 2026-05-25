@@ -12,14 +12,49 @@
             <h1 style="margin: 0;">
                 Zmiany Klimatyczne
             </h1>
-            <button class="button1" onclick="window.location.href='{{ url_for('home') }}'">Strona Główna</button>
-            <button class="button2" onclick="window.location.href='{{ url_for('about') }}'">O Nas</button>
+            <button class="button" onclick="window.location.href='{{ url_for('home') }}'">Strona Główna</button>
+            <button class="button" onclick="window.location.href='{{ url_for('about') }}'">O Nas</button>
+            <button class="button" onclick="window.location.href='{{ url_for('home') }}'">Licznik śmieci</button>
+            <button class="button" onclick="window.location.href='{{ url_for('home') }}'">Kalkulator śladu węglowego</button>
         </div>
         <div class="container1">
             <h2>Witamy na naszej stronie o zmianach klimatycznych!</h2>
             <div class="container2">
-                <h3>Co robimy?</h3>
-                <h4>jakeis gowno pozynie to dokonce</h4>
+                    <h3 style="margin: 0; margin-top: 15px;" class="header3">
+                        Co robimy?
+                    </h3>
+                    <h4 style="margin: 0; margin-top: 10px; margin-left: 15px;">
+                        > Licznik śmieci
+                    </h4>
+                <div>
+                    <p style="margin: 0; margin-top: 5px; margin-left: 25px;">
+                        Na naszej stronie znajdziesz licznik śmieci,<br> 
+                        który pokazuje ilość odpadów które zostały zebrane i przetworzone.<br> 
+                        Dzięki temu możesz zobaczyć, jak wiele śmieci udało ci się usunąć z naszego środowiska.
+                    </p>
+                <img src="static/images/placeholder500300.png" alt="Licznik śmieci" class="image1">
+                </div>
+                    <h4 style="margin: 0; margin-top: 10px; margin-left: 15px;">
+                        > Kalkulator śladu węglowego
+                    </h4>
+                    <div>
+                    <p style="margin: 0; margin-top: 5px; margin-left: 25px;">
+                        Na naszej stronie znajdziesz także kalkulator śladu węglowego,<br> 
+                        który pokazuje ilość emisji dwutlenku węgla z gramów zebranych odpadów.<br> 
+                        Dzięki temu możesz zobaczyć, ile dwutlenku węgla udało ci się zaoszczędzić,<br>
+                        usuwając śmieci z naszego środowiska.
+                    </p>
+                <img src="static/images/placeholder500300.png" alt="Kalkulator śladu węglowego" class="image1">
+                </div>
+                <h4 style="margin: 0; margin-top: 10px; margin-left: 15px;">
+                        > Bot Discord
+                    </h4>
+                    <div>
+                    <p style="margin: 0; margin-top: 5px; margin-left: 25px;">
+                        Mamy również bota na Discorda,<br>
+                    </p>
+                <img src="static/images/placeholder500300.png" alt="Kalkulator śladu węglowego" class="image1">
+                </div>
             </div>
         </div>
     </body>
